@@ -32,8 +32,8 @@ const Hero = () => {
       </div>
 
       {/*  Right Section */}
-      <div className="border-black border-2">
-        <h1>Right section</h1>
+      <div className="w-full max-w-md">
+        <img src={assets.header_img} alt="hero img" />
       </div>
     </div>
   );
