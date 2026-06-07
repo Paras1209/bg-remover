@@ -19,6 +19,8 @@ const Hero = () => {
           industry. <br className="max-sm:hidden" />
           Lorem Ipsum has been the industry's standard dummy text ever.
         </p>
+
+        {/* Upload Button */}
         <div>
           <input type="file" name="" id="upload1" hidden />
           <label

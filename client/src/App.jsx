@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import BuyCredit from "./pages/BuyCredit";
 import Results from "./pages/Results";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/result" element={<Results/>} />
         <Route path="/buy" element={<BuyCredit/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
